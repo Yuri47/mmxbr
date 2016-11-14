@@ -13,7 +13,7 @@
     <link href={{asset("css/bootstrap.css")}} rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href={{asset("css/main.css")}} rel="stylesheet">
+    <link href={{asset("css/main2.css")}} rel="stylesheet">
     
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -30,8 +30,8 @@
   <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
     <!-- Fixed navbar -->
-        <div id="navigation" class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
+        <div id="navigation" class="navbar navbar-default navbar-fixed-top navbarmmx">
+          <div class="container container-navbarmmx">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
