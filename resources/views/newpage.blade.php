@@ -29,7 +29,7 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#navigation">
 
-    <!-- Fixed navbar -->
+     
         <div id="navigation" class="navbar navbar-default navbar-fixed-top navbarmmx">
           <div class="container container-navbarmmx">
             <div class="navbar-header">
@@ -40,16 +40,47 @@
               </button>
               <a class="navbar-brand" href="#"><b>Macromix</b></a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse mynavbar">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#home" class="smothscroll">Home</a></li>
                 <li><a href="#desc" class="smothscroll">Descrição</a></li>
                 <li><a href="#showcase" class="smothScroll">Showcase</a></li>
                 <li><a href="#contact" class="smothScroll">Contato</a></li>
               </ul>
-            </div><!--/.nav-collapse -->
+            </div> 
           </div>
         </div>
+
+
+
+
+
+<!-- 
+https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigation/43883/3
+    <nav class="navbar navbar-default" role="navigation">
+                <div class="container"> 
+                      
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                <a href="#" class="navbar-brand">Esthetics Studio</a> </div>
+                  
+                        <div class="collapse navbar-collapse mynavbar" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav ">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li class="mylogo"><a href="#"><img src=" http://placehold.it/150x50" alt="Logo"></a></li>
+                                        <li><a href="#">Life</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                </ul>
+                        </div>
+                   
+                </div>
+                
+        </nav>
+
+ -->
+
+
 
 
     <section id="home" name="home"></section>
