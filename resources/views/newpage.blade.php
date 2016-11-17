@@ -1,119 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
-    <meta name="author" content="Alvarez.is - BlackTie.co">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+@extends('layout.layout')
 
-    <title>Pratt - Free Bootstrap 3 Theme</title>
+@section('title', 'Macromix')
 
-    <!-- Bootstrap core CSS -->
-    <link href={{asset("css/bootstrap.css")}} rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href={{asset("css/main2.css")}} rel="stylesheet">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src={{asset("js/jquery.min.js")}}></script>
-    <script src={{asset("js/smoothscroll.js")}}></script>
-    
+@section('ogUrl', '')
+@section('ogTitle', 'Macromix Informática Serviços Especializados')
+@section('ogDescription', 'this is description from blade bitch')
+@section('ogImage', 'app-bg.png')
 
 
-
- 
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#navigation">
-
-     
-        <div id="navigation" class="navbar navbar-default navbar-fixed-top navbarmmx">
-          <div class="container container-navbarmmx">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><b>Macromix</b></a>
-            </div>
-            <div class="navbar-collapse collapse mynavbar">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-                <li><a href="#desc" class="smothscroll">Descrição</a></li>
-                <li><a href="#showcase" class="smothScroll">Showcase</a></li>
-                <li><a href="#contact" class="smothScroll">Contato</a></li>
-              </ul>
-            </div> 
-          </div>
-        </div>
+@section('content')
 
 
 
 
 
-<!-- 
-https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigation/43883/3
-    <nav class="navbar navbar-default" role="navigation">
-                <div class="container"> 
-                      
-                        <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                                <a href="#" class="navbar-brand">Esthetics Studio</a> </div>
-                  
-                        <div class="collapse navbar-collapse mynavbar" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav ">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li class="mylogo"><a href="#"><img src=" http://placehold.it/150x50" alt="Logo"></a></li>
-                                        <li><a href="#">Life</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                </ul>
-                        </div>
-                   
-                </div>
-                
-        </nav>
-
- -->
 
 
 
-
-    <section id="home" name="home"></section>
-    <div id="headerwrap">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-lg-12">
-                    <h1>Macrromix</h1>
-                    <h3>Show your product with this handsome theme.</h3>
-                    <br>
-                </div>
-                
-                <div class="col-lg-2">
-                    <h5>Amazing Results</h5>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <img class="hidden-xs hidden-sm hidden-md" src={{asset("img/arrow1.png")}}>
-                </div>
-                <div class="col-lg-8">
-                    <img class="img-responsive" src={{asset("img/app-bg.png")}} alt="">
-                </div>
-                <div class="col-lg-2">
-                    <br>
-                    <img class="hidden-xs hidden-sm hidden-md" src={{asset("img/arrow2.png")}}>
-                    <h5>Awesome Design</h5>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-        </div> <!--/ .container -->
-    </div><!--/ #headerwrap -->
-
-
-
- 
 
 
 
@@ -160,7 +63,7 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
                 <br>
                 <br>
                 <div class="col-lg-6 centered">
-                    <img class="centered" {{asset("img/mobile.png")}} alt="">
+                    <img class="centered" src={{asset("img/mobile.png")}} >
                 </div>
                 
                 <div class="col-lg-6">
@@ -263,61 +166,37 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
     </div>  
 
 
-    <section id="contact" name="contact"></section>
-    <div id="footerwrap">
-        <div class="container">
-            <div class="col-lg-5">
-                <h3>Address</h3>
-                <p>
-                Av. Greenville 987,<br/>
-                New York,<br/>
-                90873<br/>
-                United States
-                </p>
-            </div>
-            
-            <div class="col-lg-7">
-                <h3>Drop Us A Line</h3>
-                <br>
-                <form role="form" action="#" method="post" enctype="plain"> 
-                  <div class="form-group">
-                    <label for="name1">Your Name</label>
-                    <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="email1">Email address</label>
-                    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
-                  </div>
-                  <div class="form-group">
-                    <label>Your Text</label>
-                    <textarea class="form-control" name="Message" rows="3"></textarea>
-                  </div>
-                  <br>
-                  <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div id="c">
-        <div class="container">
-            <p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
-        
-        </div>
-    </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src={{asset("js/bootstrap.js")}}></script>
-    <script>
-    $('.carousel').carousel({
-      interval: 3500
-    })
-    </script>
 
 
- 
 
-  </body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@endsection
