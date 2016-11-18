@@ -41,6 +41,7 @@
                 <br>
                 <hr>
                 <br>
+            <i class="fa fa-camera-retro fa-5x"></i> fa-5x
                 <br>
                 <br>
                 <div class="col-lg-4">

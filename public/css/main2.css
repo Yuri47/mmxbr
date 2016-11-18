@@ -164,7 +164,8 @@ a:after {
 #c {
 	background: #222222;
 	padding-top: 15px;
-	text-align: right;
+	text-align: center;
+/*margin-bottom: 100px;*/
 }
 
 #c p {
@@ -201,7 +202,10 @@ text-align: center !important;
 }
 
 
-
+#site_footer{
+     
+    display: none;  
+}
 
 
 
@@ -280,6 +284,98 @@ text-align: center !important;
     
 }
 
+#site_footer{
+    background-color: #000000;
+    width: 99%;
+    position: fixed;
+    bottom: 0;
+    display: block;
+    height: 50px; 
+
+}
+  
+    #site_footer .container
+    {
+        /*padding: 20px;  */
+    }
+
+#ftr{
+    padding-bottom: 50px;
+}
+#c {
+     
+margin-bottom: 50px;
+}
+
+ 
+ul {
+list-style: none !important;
+margin: 0px;
+padding: 0px;
+display: inline;
+text-align: center;
+}
+li{
+float:left;
+padding:1px 1px;
+list-style-type:none;
+}
+ .um{
+    background-color: #B22222;
+    min-height: 50px;
+    font-size: 25px;
+ }
+ .um i {
+    color: white;
+    text-align: center;
+    margin-left: 26%;
+    margin-top: 2.3%;
+ }
+
+  .dois{
+    background-color: #00CED1;
+    min-height: 50px;
+    font-size: 25px;
+ }
+ .dois i {
+    color: white;
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 2.3%;
+ }
+
+  .tres{
+    background-color: #3b5998;
+    min-height: 50px;
+    font-size: 25px;
+ }
+ .tres i {
+    color: white;
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 2.3%;
+ }
+
+  .quatro{
+    background-color: #696969;
+    min-height: 50px;
+    font-size: 25px;
+ }
+ .quatro i {
+    color: white;
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 2.3%;
+ }
+
+ 
+
+
+
+
+
+
 
 
 }/* media 768*/
+

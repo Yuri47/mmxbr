@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href={{asset("css/main2.css")}} rel="stylesheet">
+    <link href={{asset("css/font-awesome.css")}} rel="stylesheet">
     
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -56,8 +57,9 @@
             <div class="navbar-collapse collapse mynavbar">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-                <li><a href="#desc" class="smothscroll">Descrição</a></li>
-                <li><a href="#showcase" class="smothScroll">Showcase</a></li>
+                <li><a href="#desc" class="smothscroll">Serviços</a></li>
+                <li><a href="#showcase" class="smothScroll">Criação de Sites</a></li>
+                <li><a href="#contact" class="smothScroll">Dicas</a></li>
                 <li><a href="#contact" class="smothScroll">Contato</a></li>
               </ul>
             </div> 
@@ -159,13 +161,35 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
             </div>
         </div>
     </div>
-    <div id="c">
+    <div id="c" class="ftr">
         <div class="container">
             <p>Yuri Alexs</p>
-        
+        <a href="tel:61991829742">WHATSAPP</a>
         </div>
     </div>
 
+
+ 
+
+<footer id="site_footer">
+      <div class="footernew">
+     <div class="row">
+  <div class="col-xs-3 col-md-3 um"><i class="fa fa-home fa-2x" aria-hidden="true"></i>
+</div>
+  <div class="col-xs-3 col-md-3 dois"><i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+</div>
+ <div class="col-xs-3 col-md-3 tres"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+</div>
+  <div class="col-xs-3 col-md-3 quatro"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+</div>
+ 
+</div>
+      </div>      
+    </footer>
+ 
+
+
+ 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
