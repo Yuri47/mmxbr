@@ -161,7 +161,7 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
     </div>
     <div id="c">
         <div class="container">
-            <p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p>
+            <p>Yuri Alexs</p>
         
         </div>
     </div>
