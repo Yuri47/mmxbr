@@ -56,11 +56,11 @@
             </div>
             <div class="navbar-collapse collapse mynavbar">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-                <li><a href="#desc" class="smothscroll">Serviços</a></li>
-                <li><a href="#showcase" class="smothScroll">Criação de Sites</a></li>
-                <li><a href="#contact" class="smothScroll">Dicas</a></li>
-                <li><a href="#contact" class="smothScroll">Contato</a></li>
+                <li ><a href=" " class="">Home</a></li>
+                <li><a href=" " class="">Serviços</a></li>
+                <li><a href=" " class="">Criação de Sites</a></li>
+                <li><a href=" " class="">Dicas</a></li>
+                <li><a href="" class="">Contato</a></li>
               </ul>
             </div> 
           </div>
@@ -130,11 +130,12 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
     <div id="footerwrap">
         <div class="container">
             <div class="col-lg-5">
-                <h3>Address</h3>
+                <h3>Macromix - (61) 3029-2859</h3>
+                <h3>Endereço</h3>
                 <p>
                 QC 01 Conjunto D Lote 04 Loja 03,<br/>
                 Santa Maria - DF,<br/>
-                72.535-040<br/>
+                Cep: 72.535-040<br/>
                 CNPJ: 3265848774-958/548
                 </p>
             </div>
@@ -165,6 +166,7 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
         <div class="container">
             <p>Yuri Alexs</p>
         <a href="tel:61991829742">WHATSAPP</a>
+         
         </div>
     </div>
 
