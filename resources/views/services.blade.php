@@ -14,27 +14,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <section id="desc" name="desc"></section>
-    <!-- INTRO WRAP -->
-    <div id="intro">
-        <div class="container">
+    <div class="container">
             <div class="row centered">
-                <img src={{asset("img/mmxlogo.png")}} alt="">
-                <h3>A Macromix é uma empresa de informática que está há 13 anos no mercado <br>
-                    oferecendo os melhores serviços e produtos de qualidade. Fundada em Outubro <br>
-                    de 2003, a Macromix tem como principal compromisso realizar os serviços <br>
-                    com total transparência e qualidade por um preço justo.
+                 
+                <h3>Oferecemos serviços especializados Lorem ipsum dolor sit amet, consectetur 
+                	adipisicing elit. Necessitatibus officiis ullam mollitia magnam vero blanditiis 
+                	amet illum fuga, vitae nisi, sint similique dolore cum pariatur quaerat voluptas nam distinctio minus?
                 </h3>
                 <br>
                 <br>
@@ -51,37 +36,44 @@
                     <p>Tem um grande volume de impressão?
                                                             Nós temos a solução para você economizar! Imprima a menos de 0,01 centavo de custo.</p>
                 <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
-                <br>
+                 
                 </div>
                 <div class="col-lg-4">
                     <img src={{asset("img/config.png")}} alt="">
                     <h3>Manutenção</h3>
                     <p>Fazemos manutenção em computadores, notebooks e carregadores, impressoras e monitores. Consertamos também notebooks quebrados.</p>
                        <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
-                       <br>
+                        
                 </div>
                 <div class="col-lg-4">
                     <img src={{asset("img/responsive.png")}} alt="">
                     <h3>Criação de Sites</h3>
                     <p>Deseja ter um site para sua empresa ou negócio? Isso é mais simples do que você imagina! <br> Cuidamos de tudo para você.</p>
                        <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
-                       <br>
+                        
+                </div>
+                </div>
+
+                <div class="row centered">
+                 <div class="col-lg-4">
+                    <img src={{asset("img/config.png")}} alt="">
+                    <h3>Manutenção</h3>
+                    <p>Fazemos manutenção em computadores, notebooks e carregadores, impressoras e monitores. Consertamos também notebooks quebrados.</p>
+                       <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                        
+                </div>
+                <div class="col-lg-4">
+                    <img src={{asset("img/responsive.png")}} alt="">
+                    <h3>Criação de Sites</h3>
+                    <p>Deseja ter um site para sua empresa ou negócio? Isso é mais simples do que você imagina! <br> Cuidamos de tudo para você.</p>
+                       <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                        
                 </div>
                  
             </div>
             <br>
             <hr>
         </div> <!--/ .container -->
-    </div><!--/ #introwrap -->
-    
-    <!-- FEATURES WRAP -->
-   
-    
-    
-
-
- 
-
 
 
 

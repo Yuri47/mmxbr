@@ -56,8 +56,8 @@
             </div>
             <div class="navbar-collapse collapse mynavbar">
               <ul class="nav navbar-nav">
-                <li ><a href=" " class="">Home</a></li>
-                <li><a href=" " class="">Serviços</a></li>
+                <li ><a href="/" class="">Home</a></li>
+                <li><a href="/services" class="">Serviços</a></li>
                 <li><a href=" " class="">Criação de Sites</a></li>
                 <li><a href=" " class="">Dicas</a></li>
                 <li><a href="" class="">Contato</a></li>
@@ -118,6 +118,55 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
  
 
 @yield('content')
+
+
+
+
+
+
+
+
+
+    <section id="showcase" name="showcase"></section>
+    <div id="showcase">
+        <div class="container">
+            <div class="row">
+           
+                <br>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div id="carousel-example-generic" class="carousel slide">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      </ol>
+                    
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                            <h1 class="centered">Criação de Sites</h1>
+                          <img src={{asset("img/item-01.png")}}  alt="">
+                        </div>
+                        <div class="item">
+                            <h1 class="centered">Instalação de Bulk Ink</h1>
+                          <img src={{asset("img/item-02.png")}} alt="">
+                        </div>
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>    
+        </div><!-- /container -->
+    </div>  
+
+ 
+
+
+
+
 
 
 
