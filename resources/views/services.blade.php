@@ -54,7 +54,7 @@
                 </div>
                 </div>
 
-                <div class="row centered">
+                <div class="row centered clearfix">
                  <div class="col-lg-4">
                     <img src={{asset("img/config.png")}} alt="">
                     <h3>Manutenção</h3>
