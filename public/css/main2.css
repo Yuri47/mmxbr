@@ -169,7 +169,7 @@ a:after {
 }
 
 #c p {
-	color: white
+	color: #4e4e4e;
 }
 
 
@@ -322,8 +322,10 @@ h21 {
     text-align:center;
 }
  
-/*
-http://www.minimit.com/demos/bootstrap-3-responsive-centered-columns*/
+/* cria um arquivo para guardar links tipo esse \/
+http://www.minimit.com/demos/bootstrap-3-responsive-centered-columns
+http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns
+*/
 
 
 
@@ -423,6 +425,7 @@ http://www.minimit.com/demos/bootstrap-3-responsive-centered-columns*/
 #ftr{
     padding-bottom: 50px;
 }
+ 
 #c {
      
 margin-bottom: 50px;

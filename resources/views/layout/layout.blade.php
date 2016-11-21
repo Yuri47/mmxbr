@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
+    <meta name="description" content="Macromix">
     <meta name="author" content="Yuri Alexs">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
     <meta name="theme-color" content="‪#0000FF">
 
-    <title>@yield('title') - Macromix</title>
+    <title>@yield('title') Macromix Informática</title>
 
     <!-- Bootstrap core CSS -->
     <link href={{asset("css/bootstrap.css")}} rel="stylesheet">
@@ -59,7 +59,7 @@
                 <li ><a href="/" class="">Home</a></li>
                 <li><a href="/services" class="">Serviços</a></li>
                 <li><a href=" " class="">Criação de Sites</a></li>
-                <li><a href=" " class="">Dicas</a></li>
+                <li><a href="/teste" class="">Dicas</a></li>
                 <li><a href="" class="">Contato</a></li>
               </ul>
             </div> 
@@ -179,14 +179,17 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
     <div id="footerwrap">
         <div class="container">
             <div class="col-lg-5">
-                <h3>Macromix - (61) 3029-2859</h3>
-                <h3>Endereço</h3>
-                <p>
-                QC 01 Conjunto D Lote 04 Loja 03,<br/>
-                Santa Maria - DF,<br/>
-                Cep: 72.535-040<br/>
-                CNPJ: 3265848774-958/548
-                </p>
+                <h3>Macromix</h3>
+                   <address>
+                     
+                    Quadra Central 01 Conjunto D Lote 04 Loja 03<br>
+                    Santa Maria, Distrito Federal<br>
+                    Telefone: (61) 3029-2859<br>
+                    Funcionamento: segunda a sexta de 09:00 as 18:00, sábado de 09:00 as 14:00<br>
+                    CNPJ: 11.113.091/0001-98 <br>
+
+
+                  </address>
             </div>
             
             <div class="col-lg-7">
@@ -213,8 +216,8 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
     </div>
     <div id="c" class="ftr">
         <div class="container">
-            <p>Yuri Alexs</p>
-        <a href="tel:61991829742">WHATSAPP</a>
+            <p>Desenvolvido por: Macromix</p>
+        
          
         </div>
     </div>
@@ -231,8 +234,8 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
 </div>
  <div class="col-xs-3 col-md-3 tres"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
 </div>
-  <div class="col-xs-3 col-md-3 quatro"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-</div>
+  <a href="tel:61991829742"> <div class="col-xs-3 col-md-3 quatro"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+</div></a>
  
 </div>
       </div>      

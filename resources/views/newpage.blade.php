@@ -1,6 +1,6 @@
 @extends('layout.layout')
 
-@section('title', 'Macromix')
+@section('title', '')
 
 @section('ogUrl', '')
 @section('ogTitle', 'Macromix Informática Serviços Especializados')
