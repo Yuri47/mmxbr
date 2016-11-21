@@ -11,6 +11,8 @@
 |
 */
 
+
+
 Route::get('/', function () {
     return view('newpage');
 });
@@ -23,3 +25,5 @@ Route::get('/services', function () {
 Route::get('/teste', function () {
     return view('teste');
 });
+
+Route::post('mail', 'MailController@Send');

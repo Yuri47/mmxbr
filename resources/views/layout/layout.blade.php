@@ -37,7 +37,6 @@
 
 
 
-
  
   </head>
 
@@ -195,18 +194,27 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
             <div class="col-lg-7">
                 <h3>Envie-nos uma mensagem</h3>
                 <br>
-                <form role="form" action="#" method="post" enctype="plain"> 
+                <form role="form" action="mail" method="post" enctype="plain"> 
+                  <input type="hidden" name="_token" value="{{csrf_token()}}">
                   <div class="form-group">
                     <label for="name1">Seu Nome</label>
-                    <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
+                    <input type="name" required name="name" class="form-control" id="name1" placeholder="Seu Nome">
+                  </div>
+                  <div class="form-group">
+                    <label for="name1">Telefone (opcional)</label>
+                    <input type="name"  name="phone" class="form-control" id="name1" placeholder="Telefone">
                   </div>
                   <div class="form-group">
                     <label for="email1">Seu Email</label>
-                    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
+                    <input type="email" required name="email" class="form-control" id="email1" placeholder="Seu Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="name1">Assunto</label>
+                    <input type="name" required name="subject" class="form-control" id="name1" placeholder="Assunto">
                   </div>
                   <div class="form-group">
                     <label>Sua Mensagem</label>
-                    <textarea class="form-control" name="Message" rows="3"></textarea>
+                    <textarea class="form-control" required name="message" rows="3"></textarea>
                   </div>
                   <br>
                   <button type="submit" class="btn btn-large btn-success">ENVIAR</button>
@@ -228,8 +236,8 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
 <footer id="site_footer">
       <div class="footernew">
      <div class="row">
-  <div class="col-xs-3 col-md-3 um"><i class="fa fa-home fa-2x" aria-hidden="true"></i>
-</div>
+ <a href="/">  <div class="col-xs-3 col-md-3 um"><i class="fa fa-home fa-2x" aria-hidden="true"></i>
+</div> </a>
   <div class="col-xs-3 col-md-3 dois"><i class="fa fa-cog fa-2x" aria-hidden="true"></i>
 </div>
  <div class="col-xs-3 col-md-3 tres"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
@@ -249,11 +257,78 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src={{asset("js/bootstrap.js")}}></script>
+    <script src={{asset("js/jquery.min.1.11.3.js")}}></script>
     <script>
     $('.carousel').carousel({
       interval: 3500
     })
     </script>
+
+
+
+
+
+
+
+
+
+  
+<script type="text/javascript" >
+ 
+ 
+
+$("div#editSuccess").hide()
+
+
+$("button#1").click(function() {
+            //$("p").hide()
+            //$("h1.dois").show("slow")
+            
+
+$.ajax({
+  method: "GET",
+  url: "{{ route('editclient') }}",
+  data: { name: $('input#nameEdit').val(), 
+          fone: $('input#foneEdit').val(), 
+          address: $('input#addressEdit').val(), 
+  id: $('input#id').val() 
+}
+})
+  .done(function( msg ) {
+    //alert( "Data Saved: " + msg );
+
+var object = msg; //pega o objeto msg que vem da função ajax do servicecontroller
+ 
+$("button#1").text(msg["name"] );
+$("input#textFinal").val(msg["name"]);
+$("div#divEdit").hide("slow")
+$("div#editSuccess").show("slow")
+
+  });
+
+ 
+        });
+ 
+   
+  
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
