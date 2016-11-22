@@ -40,12 +40,11 @@
         <div class="col-xs-6 col-centered col-fixed att">
             <div class="item">
                 <div class="content">
-                    <img src={{asset("img/print.png")}} alt="">
+                    <img src={{asset("img/product-2f9916b48d1cbb4e61f3c44355df8a48.png")}} alt="" class="img-rounded img-responsive col-centered">
                   
-                    <h3>Soluções em Impressão</h3>
-                    <p>Tem um grande volume de impressão?
-                    Nós temos a solução para você economizar! Imprima a menos de 0,01 centavo de custo.</p>
-                    <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                    <h3>Conserto de Fonte de Notebook</h3>
+                    <p>Seu carregador do notebook parou de funcionar? Ele ainda pode ter conserto.</p>
+                    <a href="/services/conserto-de-fonte-de-notebook"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
                  
                 </div>
             </div>
@@ -58,7 +57,7 @@
             <div class="item">
                 <div class="content">
           
-                    <img src={{asset("img/config.png")}} alt="">
+                    <img src={{asset("img/config.png")}} alt="" class="img-rounded img-responsive col-centered">
                     <h3>Manutenção</h3>
                     <p>Fazemos manutenção em computadores, notebooks e carregadores, impressoras e monitores. Consertamos também notebooks quebrados.</p>
                     <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>     
@@ -74,7 +73,7 @@
             <div class="item">
                 <div class="content">
           
-                    <img src={{asset("img/responsive.png")}} alt="">
+                    <img src={{asset("img/responsive.png")}} alt="" class="img-rounded img-responsive col-centered">
                     <h3>Criação de Sites</h3>
                     <p>Deseja ter um site para sua empresa ou negócio? Isso é mais simples do que você imagina! <br> Cuidamos de tudo para você.</p>
                     <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
@@ -90,7 +89,7 @@
             <div class="item">
                 <div class="content">
           
-                    <img src={{asset("img/responsive.png")}} alt="">
+                    <img src={{asset("img/responsive.png")}} alt="" class="img-rounded img-responsive col-centered">
                     <h3>Criação de Sites</h3>
                     <p>Deseja ter um site para sua empresa ou negócio? Isso é mais simples do que você imagina! <br> Cuidamos de tudo para você.</p>
                     <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>

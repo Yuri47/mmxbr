@@ -27,3 +27,9 @@ Route::get('/teste', function () {
 });
 
 Route::post('mail', 'MailController@Send');
+
+ 
+
+Route::get('/services/conserto-de-fonte-de-notebook', function () {
+    return view('pages.fonte');
+});

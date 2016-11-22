@@ -327,7 +327,18 @@ http://www.minimit.com/demos/bootstrap-3-responsive-centered-columns
 http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns
 */
 
+.img-responsive {
+     
+    height: auto;
+    max-width: 70%;
+}
 
+
+.img-responsive-page {
+     
+    height: auto;
+    max-width: 460px;
+}
 
 
 
@@ -492,7 +503,12 @@ list-style-type:none;
     margin-top: 2.3%;
  }
 
- 
+ .img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+}
 
 
 
