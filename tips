@@ -17,3 +17,5 @@ To deploy the site in shared host:
 >change the permissions of the public_html folder to 750.
 >change the permissions of the index.php file to 644.
 >enjoy.
+
+https://rafaell-lycan.com/2015/construindo-restful-api-laravel-parte-1/

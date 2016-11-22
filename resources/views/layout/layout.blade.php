@@ -257,7 +257,7 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src={{asset("js/bootstrap.js")}}></script>
-    <script src={{asset("js/jquery.min.1.11.3.js")}}></script>
+
     <script>
     $('.carousel').carousel({
       interval: 3500
@@ -272,7 +272,7 @@ https://www.sitepoint.com/community/t/how-to-center-align-the-bootstrap-navigati
 
 
 
-  
+      <script src={{asset("js/jquery.min.1.11.3.js")}}></script>
 <script type="text/javascript" >
  
  
@@ -286,8 +286,8 @@ $("button#1").click(function() {
             
 
 $.ajax({
-  method: "GET",
-  url: "{{ route('editclient') }}",
+  method: "POST",
+  url: "/mail",
   data: { name: $('input#nameEdit').val(), 
           fone: $('input#foneEdit').val(), 
           address: $('input#addressEdit').val(), 
