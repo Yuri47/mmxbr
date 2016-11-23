@@ -27,6 +27,8 @@ p {
 
 .centered {
     text-align: center;
+    padding-top: 12%;
+    padding-bottom: 12%;
 }
 
 /* Links */
@@ -78,11 +80,12 @@ a:after {
 /*    background-repeat: repeat-y repeat-x;*/
     background-position: center;
     background-attachment: fixed !important;
-    min-height: 600px;
+    min-height: 100%;
     background-size: cover; /*estica a imagem para caber na tela*/
  
 
 }
+html, body { margin:0; height: 100%;}
 
 #headerwrap h1 {
 	margin-top: 120px;
@@ -179,7 +182,7 @@ a:after {
 
 
 .navbarmmx {
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.0);
     border-color: rgba(0,0,0,.0);
 }
 .navbarmmx a{
@@ -341,6 +344,76 @@ http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-cente
 }
 
 
+.content-row {
+  margin-top: 30px;
+}
+  .pricing {
+  color: white;
+  background-color: #222;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.pricing .pricing-item {
+  text-align: center;
+  background: white;
+  color: #222;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 30px 5px rgba(34, 34, 34, 0.75);
+  -moz-box-shadow: 0px 0px 30px 5px rgba(34, 34, 34, 0.75);
+  box-shadow: 0px 0px 30px 5px rgba(34, 34, 34, 0.75);
+  z-index: 1;
+  margin-bottom: 30px;
+}
+.pricing .pricing-item h3 {
+  margin: 0;
+}
+.pricing .pricing-item hr {
+  max-width: 100px;
+}
+.pricing .pricing-item .price {
+  margin-bottom: 20px;
+}
+.pricing .pricing-item .price .number {
+  font-weight: 900;
+  font-size: 50px;
+}
+.pricing .pricing-item .price .number sup {
+  font-size: 30px;
+}
+.pricing .pricing-item .list-group-item {
+  border-radius: 0;
+}
+@media (min-width: 992px) {
+  .pricing {
+    background-attachment: scroll;
+  }
+  .pricing .pricing-item {
+    margin-bottom: 0;
+  }
+  .pricing .pricing-item.featured-first {
+    margin-right: -15px;
+    margin-top: 15px;
+  }
+  .pricing .pricing-item.featured {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    padding: 45px 30px;
+  }
+  .pricing .pricing-item.featured-last {
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+}
+@media (min-width: 1025px) {
+  .pricing {
+    background-attachment: fixed;
+  }
+}
 
 
 

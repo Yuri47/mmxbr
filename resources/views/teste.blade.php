@@ -1,21 +1,21 @@
 @extends('layout.layout')
 
-@section('title', 'Conserto de Fonte de Notebook')
+@section('title', '')
 
-@section('ogUrl', '/services/conserto-de-fonte-de-notebook')
-@section('ogTitle', 'Conserto de Fonte de Notebook')
-@section('ogDescription', 'Realizamos conserto em fontes de notebooks')
-@section('ogImage', '2product-2f9916b48d1cbb4e61f3c44355df8a48.png.jpeg')
-
-
- 
+@section('ogUrl', '')
+@section('ogTitle', 'Macromix Informática Serviços Especializados')
+@section('ogDescription', 'this is description from blade bitch')
+@section('ogImage', 'app-bg.png')
 
 
- 
-    
 
 
- 
+
+
+
+
+
+
 
 
 @section('head')
@@ -31,9 +31,16 @@
   <script type="text/javascript" src="/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
   <link rel="stylesheet" type="text/css" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
 
- 
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
 
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
   <script type="text/javascript">
     $(document).ready(function() {
@@ -211,8 +218,6 @@
 
     });
   </script>
-
-
   <style type="text/css">
     .fancybox-custom .fancybox-skin {
       box-shadow: 0 0 50px #222;
@@ -235,58 +240,35 @@
 @section('content')
 
 
- 
 
-    <section id="desc" name="desc"></section>
-    <!-- INTRO WRAP -->
-    <div id="intro">
-        <div class="container">
-            <div class="row centered">
-                
-               
-                <br>
-                <br>
-                <br>
-                 
-                <br>
-              
- <div class="container marketing">
- 
-      <!-- START THE FEATURETTES -->
- 
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-           <h1>Conserto de Fonte de Notebook.  
-                </h1>
-          <p class="lead" style="text-align:left">Realizamos conserto em fontes de notebooks. Geralmente apenas o cabo do carregador é danificado, e nesse caso sempre tem conserto.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7 ">
-          <img class="featurette-image img-responsive img-responsive-page center-block" src={{asset("img/2product-2f9916b48d1cbb4e61f3c44355df8a48.png.jpeg")}} alt="Generic placeholder image">
-        </div>
-      </div>
- 
-      <!-- /END THE FEATURETTES -->
 
- 
-    </div><!-- /.container -->
- 
-            </div>
-            <br>
-            <hr>
-        </div> <!--/ .container -->
-    </div><!--/ #introwrap -->
-    
-    <!-- FEATURES WRAP -->
-   
-    
+
+
+
 
 
 
 <div class="container">
     <div class="row row-centered">
+
+<h1>NÃO TIRAMOS XÉROX! BITCH</h1>
+
+        
+           <h3>Imagens </h3>
+
  
-           <h2>Imagens </h2>
+           
+
+
  
+
+
+
+
+
+
+   
+  <h3>Simple image gallery</h3>fancybox-thumbs" data-fancybox-group="thumb"
   <p>
     <a class="fancybox" href="/img/fancybox/imgHeader.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="/img/fancybox/imgHeader.jpg" alt="" width="200px" height="auto"/></a>
 
@@ -296,14 +278,11 @@
 
     <a class="fancybox" href="/img/fancybox/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="/img/fancybox/4_s.jpg" alt="" /></a>
   </p>
-  
+ 
+
+
     </div>
 </div>
    
-
-
-
-
-
 
 @endsection

@@ -33,3 +33,7 @@ Route::post('mail', 'MailController@Send');
 Route::get('/services/conserto-de-fonte-de-notebook', function () {
     return view('pages.fonte');
 });
+Route::get('/site', function () {
+    return view('pages.site');
+});
+
