@@ -35,6 +35,8 @@
                     oferecendo os melhores serviços e produtos de qualidade. Fundada em Outubro <br>
                     de 2003, a Macromix tem como principal compromisso realizar os serviços <br>
                     com total transparência e qualidade por um preço justo.
+                    <br><br>
+                    <button type="button" class="btn btn-danger btn-lg">Clique aqui e confira nossos serviços</button>
                 </h3>
                 <br>
                 <br>

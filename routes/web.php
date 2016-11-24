@@ -33,7 +33,20 @@ Route::post('mail', 'MailController@Send');
 Route::get('/services/conserto-de-fonte-de-notebook', function () {
     return view('pages.fonte');
 });
-Route::get('/site', function () {
+Route::get('/criarsites', function () {
     return view('pages.site');
+});
+Route::get('/dicas', function () {
+    return view('pages.dicas');
+});
+Route::get('/services/reparo-na-entrada-do-carregador-do-notebook', function () {
+    return view('pages.reparoEntradaCarr');
+});
+
+Route::get('/services/reparos-em-notebooks', function () {
+    return view('pages.reparoNotebook');
+});
+Route::get('/services/instalacao-de-bulk-ink', function () {
+    return view('pages.bulkink');
 });
 

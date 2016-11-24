@@ -236,35 +236,17 @@
 
 
  
-
  
-    <!-- INTRO WRAP -->
     <div id="intro">
         <div class="container">
             <div class="row centered">
-                 
- <div class="  marketing">
- 
-      <!-- START THE FEATURETTES -->
- 
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-           <h1>Conserto de Fonte de Notebook.  
-                </h1>
-          <p class="lead" style="text-align:left">Realizamos conserto em fontes de notebooks. Geralmente apenas o cabo do carregador é danificado, e nesse caso sempre tem conserto.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7 ">
-          <img class="featurette-image img-responsive img-responsive-page center-block" src={{asset("img/2product-2f9916b48d1cbb4e61f3c44355df8a48.png.png")}} alt="Generic placeholder image">
-        </div>
-      </div>
- 
-      <!-- /END THE FEATURETTES -->
-
- <hr>
-    </div><!-- /.container -->
- 
+                
+               
+               <h1>Em breve</h1>
+           <i class="fa fa-smile-o fa-5x" aria-hidden="true"></i>
             </div>
-             
+            <br>
+            <hr>
         </div> <!--/ .container -->
     </div><!--/ #introwrap -->
     
@@ -272,30 +254,7 @@
    
     
 
-
-<!-- 
-<div class="container">
-    <div class="row row-centered">
  
-           <h2>Imagens </h2>
- 
-  <p>
-    <a class="fancybox" href="/img/fancybox/imgHeader.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="/img/fancybox/imgHeader.jpg" alt="" width="200px" height="auto"/></a>
-
-    <a class="fancybox" href="/img/fancybox/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="/img/fancybox/2_s.jpg" alt="" /></a>
-
-    <a class="fancybox" href="/img/fancybox/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="/img/fancybox/3_s.jpg" alt="" /></a>
-
-    <a class="fancybox" href="/img/fancybox/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="/img/fancybox/4_s.jpg" alt="" /></a>
-  </p>
-  
-    </div>
-</div>
-   
-
- -->
-
-
 
 
 @endsection

@@ -12,9 +12,9 @@
               <ul class="nav navbar-nav">
                 <li ><a href="/" class="">Home</a></li>
                 <li><a href="/services" class="">Serviços</a></li>
-                <li><a href="/site" class="">Criação de Sites</a></li>
-                <li><a href="/teste" class="">Dicas</a></li>
-                <li><a href="" class="">Contato</a></li>
+                <li><a href="/criarsites" class="">Criação de Sites</a></li>
+                <li><a href="/dicas" class="">Dicas</a></li>
+                <li><a href="#contact" class="">Contato</a></li>
               </ul>
             </div> 
           </div>

@@ -6,26 +6,20 @@
            
                 <br>
                 <div class="col-lg-8 col-lg-offset-2">
-                    <div id="carousel-example-generic" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                      </ol>
-                    
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                            <h1 class="centered">Criação de Sites</h1>
-                          <img src={{asset("img/item-01.png")}}  alt="">
-                        </div>
-                        <div class="item">
-                            <h1 class="centered">Instalação de Bulk Ink</h1>
-                          <img src={{asset("img/item-02.png")}} alt="">
-                        </div>
+                   
 
-                      </div>
-                    </div>
+
+                <div class="centered centerSlider">
+                  <h2 class="sliderText">Confira nossas dicas sobre informática</h2> <h3 class="sliderText">sobre como ter o melhor aproveitamento das suas tarefas e produtos</h3>
+                   <a href="/dicas">
+                   <button type="button" class=" "><h2 class="sliderText">Clique Aqui</h2></button> 
+                   </a>
+                </div>
+                
+
+
+
+
                 </div>
             </div>
             <br>

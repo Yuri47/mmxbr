@@ -273,27 +273,24 @@
     
 
 
-<!-- 
-<div class="container">
+
+<div class="container marketing" >
     <div class="row row-centered">
  
            <h2>Imagens </h2>
  
   <p>
-    <a class="fancybox" href="/img/fancybox/imgHeader.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="/img/fancybox/imgHeader.jpg" alt="" width="200px" height="auto"/></a>
+    <a class="fancybox" href="/img/serviceImages/service-43df577a1b65ab66bf2260c1d0c12313.jpg" data-fancybox-group="gallery" title="Reparo realizado na entrada do carregador"><img src="/img/serviceImages/service-43df577a1b65ab66bf2260c1d0c12313.jpg" alt="" width="200px" height="auto"/></a>
 
-    <a class="fancybox" href="/img/fancybox/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="/img/fancybox/2_s.jpg" alt="" /></a>
+    <a class="fancybox" href="/img/serviceImages/service-482b33722de7000c40c59635a8697b85.jpg" data-fancybox-group="gallery" title="Reparo realizado na entrada do carregador"><img src="/img/serviceImages/service-482b33722de7000c40c59635a8697b85.jpg" alt="" width="200px" height="auto"/></a>
 
-    <a class="fancybox" href="/img/fancybox/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="/img/fancybox/3_s.jpg" alt="" /></a>
-
-    <a class="fancybox" href="/img/fancybox/4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="/img/fancybox/4_s.jpg" alt="" /></a>
-  </p>
-  
+      </p>
+  <hr>
     </div>
 </div>
    
 
- -->
+
 
 
 

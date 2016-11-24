@@ -1,4 +1,13 @@
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -43,38 +52,69 @@ jQuery(document).ready(function() {
 
   </script>
 
-<!-- 
+ 
      
 <script type="text/javascript" >
  
  
 
-$("div#editSuccess").hide()
+$("div#msgSuccess").hide()
+$("p#send").hide()
 
 
-$("button#1").click(function() {
+$("button#2").click(function(event) {
+
+      $("div#msgSuccess").hide("slow")
+      $("p#send").hide()
+      $("div#contactForm").show("slow")
+
+        
+        $('input#subject').val("")
+        $('textarea#message').val("")
+
+  });
+ 
+$("button#1").click(function(event) {
+  event.preventDefault();
             //$("p").hide()
             //$("h1.dois").show("slow")
-            
+          
 
 $.ajax({
   method: "POST",
   url: "/mail",
-  data: { name: $('input#nameEdit').val(), 
-          fone: $('input#foneEdit').val(), 
-          address: $('input#addressEdit').val(), 
-  id: $('input#id').val() 
-}
+  data: { 
+          _token:$('input#_token').val(),
+          name: $('input#name').val(), 
+          fone: $('input#phone').val(), 
+          email: $('input#email').val(), 
+          subject: $('input#subject').val(), 
+          message: $('textarea#message').val(), 
+   
+},
+  success:function(){
+       
+ $("div#msgSuccess").show("slow")
+ $("div#contactForm").hide("fast")
+// $("p#msgSuccess").text("");
+
+
+
+    },
+  error:function(){
+      $("p#send").show()
+      $("p#send").text('Insira todas as informações.')    
+    },
+  beforeSend: function(){
+     $("p#send").show() 
+   },
 })
   .done(function( msg ) {
     //alert( "Data Saved: " + msg );
 
 var object = msg; //pega o objeto msg que vem da função ajax do servicecontroller
  
-$("button#1").text(msg["name"] );
-$("input#textFinal").val(msg["name"]);
-$("div#divEdit").hide("slow")
-$("div#editSuccess").show("slow")
+
 
   });
 
@@ -87,6 +127,4 @@ $("div#editSuccess").show("slow")
 
 
 
-
-
- -->
+ 

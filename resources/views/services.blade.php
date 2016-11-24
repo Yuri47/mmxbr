@@ -57,10 +57,10 @@
             <div class="item">
                 <div class="content">
           
-                    <img src={{asset("img/config.png")}} alt="" class="img-rounded img-responsive col-centered">
-                    <h3>Manutenção</h3>
-                    <p>Fazemos manutenção em computadores, notebooks e carregadores, impressoras e monitores. Consertamos também notebooks quebrados.</p>
-                    <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>     
+                    <img src={{asset("img/entrada.png")}} alt="" class="img-rounded img-responsive col-centered">
+                    <h3>Reparo na entrada do carregador do Notebook</h3>
+                    <p>Fazemos reparos e trocas da entrada do carregador de notebooks de varias marcas, como Positivo, Samsung, HP, Lenovo, etc.</p>
+                    <a href="/services/reparo-na-entrada-do-carregador-do-notebook"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button> </a>    
 
                 </div>
             </div>
@@ -73,10 +73,10 @@
             <div class="item">
                 <div class="content">
           
-                    <img src={{asset("img/responsive.png")}} alt="" class="img-rounded img-responsive col-centered">
-                    <h3>Criação de Sites</h3>
-                    <p>Deseja ter um site para sua empresa ou negócio? Isso é mais simples do que você imagina! <br> Cuidamos de tudo para você.</p>
-                    <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                    <img src={{asset("img/reparoNotebook.png")}} alt="" class="img-rounded img-responsive col-centered">
+                    <h3>Reparos gerais em Notebooks</h3>
+                    <p> As tampas, tela ou dobradiças do seu notebook quebraram? Isso tem solução!</p>
+                   <a href="/services/reparos-em-notebooks"> <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
                         
                 </div>
             </div>
@@ -89,10 +89,10 @@
             <div class="item">
                 <div class="content">
           
-                    <img src={{asset("img/responsive.png")}} alt="" class="img-rounded img-responsive col-centered">
-                    <h3>Criação de Sites</h3>
-                    <p>Deseja ter um site para sua empresa ou negócio? Isso é mais simples do que você imagina! <br> Cuidamos de tudo para você.</p>
-                    <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                    <img src={{asset("img/bulk.png")}} alt="" class="img-rounded img-responsive col-centered">
+                    <h3>Instalação de Bulk Ink </h3>
+                    <p>ECONOMIZE! Tem um grande volume de impressão? Nós temos a solução para você economizar! Imprima a menos de 0,01 centavo de custo.</p>
+                    <a href="/services/instalacao-de-bulk-ink"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
                         
                 </div>
             </div>
