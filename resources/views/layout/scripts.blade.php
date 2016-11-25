@@ -86,7 +86,7 @@ $.ajax({
   data: { 
           _token:$('input#_token').val(),
           name: $('input#name').val(), 
-          fone: $('input#phone').val(), 
+          phone: $('input#phone').val(), 
           email: $('input#email').val(), 
           subject: $('input#subject').val(), 
           message: $('textarea#message').val(), 
