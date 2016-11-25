@@ -1,11 +1,11 @@
 @extends('layout.layout')
 
-@section('title', 'Conserto de Fonte de Notebook')
+@section('title', 'Instalação de Bulk Ink - ')
 
-@section('ogUrl', '/services/conserto-de-fonte-de-notebook')
-@section('ogTitle', 'Conserto de Fonte de Notebook')
-@section('ogDescription', 'Realizamos conserto em fontes de notebooks')
-@section('ogImage', '2product-2f9916b48d1cbb4e61f3c44355df8a48.png.jpeg')
+@section('ogUrl', 'services/instalacao-de-bulk-ink')
+@section('ogTitle', 'Instalação de Bulk Ink')
+@section('ogDescription', 'Instalação de Bulk Ink')
+@section('ogImage', 'serviceImages/product-548cea58739dc7be2acd238560ba0cf1.png')
 
 
  

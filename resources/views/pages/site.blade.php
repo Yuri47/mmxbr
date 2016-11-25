@@ -2,7 +2,7 @@
 
 @section('title', 'Criação de Sites -')
 
-@section('ogUrl', 'site')
+@section('ogUrl', 'criarsites')
 @section('ogTitle', 'Criação de Sites - Macromix Informática')
 @section('ogDescription', 'Desenvolmenos seu site com qualidade, rapidez e segurança, cuidamos de tudo que você precisa para montar o site da sua empresa.')
 @section('ogImage', 'ogimagesite2.jpg')
@@ -34,7 +34,7 @@
  <h1>Criação de Sites
                 </h1>
       <!-- START THE FEATURETTES -->
- 
+ <br><br>
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
            

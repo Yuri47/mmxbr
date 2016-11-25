@@ -1,11 +1,11 @@
 @extends('layout.layout')
 
-@section('title', 'Conserto de Fonte de Notebook')
+@section('title', 'Reparos Gerais em Notebooks - ')
 
-@section('ogUrl', '/services/conserto-de-fonte-de-notebook')
-@section('ogTitle', 'Conserto de Fonte de Notebook')
-@section('ogDescription', 'Realizamos conserto em fontes de notebooks')
-@section('ogImage', '2product-2f9916b48d1cbb4e61f3c44355df8a48.png.jpeg')
+@section('ogUrl', 'services/reparos-em-notebooks')
+@section('ogTitle', 'Reparos Gerais em Notebooks ')
+@section('ogDescription', 'Reparos Gerais em Notebooks ')
+@section('ogImage', 'reparoNotebook.png')
 
 
  

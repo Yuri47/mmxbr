@@ -1,11 +1,11 @@
 @extends('layout.layout')
 
-@section('title', 'Conserto de Fonte de Notebook')
+@section('title', 'Reparo na entrada do carregador do Notebook - ')
 
-@section('ogUrl', '/services/conserto-de-fonte-de-notebook')
-@section('ogTitle', 'Conserto de Fonte de Notebook')
-@section('ogDescription', 'Realizamos conserto em fontes de notebooks')
-@section('ogImage', '2product-2f9916b48d1cbb4e61f3c44355df8a48.png.jpeg')
+@section('ogUrl', 'services/reparo-na-entrada-do-carregador-do-notebook')
+@section('ogTitle', 'Reparo na entrada do carregador do Notebook ')
+@section('ogDescription', 'Reparo na entrada do carregador do Notebook ')
+@section('ogImage', ' ')
 
 
  
@@ -249,12 +249,18 @@
  
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-           <h1>Conserto de Fonte de Notebook.  
+           <h1>Reparo na entrada do carregador do Notebook  
                 </h1>
-          <p class="lead" style="text-align:left">Realizamos conserto em fontes de notebooks. Geralmente apenas o cabo do carregador é danificado, e nesse caso sempre tem conserto.</p>
+          <p class="lead" style="text-align:left"> É bem comum a entrada do carregador no notebook dar defeito, e é de extrma importância 
+                                                    consertar isso o mais rápido possível, ou este defeito poderá levar a queima da placa mãe.
+                                                  </p>
+        <p class="lead" style="text-align:left"> É bem simples identificar se a entrada está quebrada: Se o notebook para de carregar quando mexe no cabo;
+                                                Se parou de carregar depois de esbarrar no carregador com ele plugado no notebook.
+                                                  </p>
+        
         </div>
         <div class="col-md-5 col-md-pull-7 ">
-          <img class="featurette-image img-responsive img-responsive-page center-block" src={{asset("img/2product-2f9916b48d1cbb4e61f3c44355df8a48.png.png")}} alt="Generic placeholder image">
+          <img class="featurette-image img-responsive img-responsive-page center-block" src={{asset("/img/serviceImages/service-482b33722de7000c40c59635a8697b85.jpg")}} alt="Generic placeholder image">
         </div>
       </div>
  

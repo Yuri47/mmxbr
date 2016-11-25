@@ -36,7 +36,7 @@
                     de 2003, a Macromix tem como principal compromisso realizar os serviços <br>
                     com total transparência e qualidade por um preço justo.
                     <br><br>
-                    <button type="button" class="btn btn-danger btn-lg">Clique aqui e confira nossos serviços</button>
+                    <a href="/services"><button type="button" class="btn btn-danger btn-lg">Clique aqui e confira nossos serviços</button></a>
                 </h3>
                 <br>
                 <br>
@@ -47,26 +47,26 @@
                 <br>
                 <br>
                 <div class="col-lg-4">
-                    <img src={{asset("img/print.png")}} alt="">
+                    <img src={{asset("img/bulk.png")}} alt="">
                   
                     <h3>Soluções em Impressão</h3>
                     <p>Tem um grande volume de impressão?
                                                             Nós temos a solução para você economizar! Imprima a menos de 0,01 centavo de custo.</p>
-                <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                <a href="/services/instalacao-de-bulk-ink"> <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
                 <br>
                 </div>
                 <div class="col-lg-4">
                     <img src={{asset("img/config.png")}} alt="">
                     <h3>Manutenção</h3>
                     <p>Fazemos manutenção em computadores, notebooks e carregadores, impressoras e monitores. Consertamos também notebooks quebrados.</p>
-                       <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                      <a href="/services/manutencao-de-computadores-e-notebooks"> <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
                        <br>
                 </div>
                 <div class="col-lg-4">
                     <img src={{asset("img/responsive.png")}} alt="">
                     <h3>Criação de Sites</h3>
                     <p>Deseja ter um site para sua empresa ou negócio? Isso é mais simples do que você imagina! <br> Cuidamos de tudo para você.</p>
-                       <button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button>
+                       <a href="/criarsites"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
                        <br>
                 </div>
                  

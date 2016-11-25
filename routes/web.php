@@ -49,4 +49,11 @@ Route::get('/services/reparos-em-notebooks', function () {
 Route::get('/services/instalacao-de-bulk-ink', function () {
     return view('pages.bulkink');
 });
+Route::get('/services/manutencao-de-computadores-e-notebooks', function () {
+    return view('pages.manutencao');
+});
+
+Route::get('/services/recarga-de-cartucho', function () {
+    return view('pages.recarga');
+});
 

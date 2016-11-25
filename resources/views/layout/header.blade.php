@@ -33,7 +33,7 @@
             <div class="row centered">
                 <div class="col-lg-12">
                     <h1>Macromix</h1>
-                    <h3>Assistência técnica especializada.</h3>
+                    <h3>Assistência técnica especializada</h3>
                     <br>
                 </div>
                 

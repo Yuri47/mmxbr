@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Macromix">
+    <meta name="description" content="Macromix Informática serviços especializados">
     <meta name="author" content="Yuri Alexs">
     <link rel="shortcut icon" href={{asset("img/favicon.ico")}}>
     <meta name="theme-color" content="‪#0000FF">

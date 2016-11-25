@@ -1,11 +1,11 @@
 @extends('layout.layout')
 
-@section('title', 'Conserto de Fonte de Notebook')
+@section('title', 'Conserto de Fonte de Notebook - ')
 
 @section('ogUrl', '/services/conserto-de-fonte-de-notebook')
 @section('ogTitle', 'Conserto de Fonte de Notebook')
 @section('ogDescription', 'Realizamos conserto em fontes de notebooks')
-@section('ogImage', '2product-2f9916b48d1cbb4e61f3c44355df8a48.png.jpeg')
+@section('ogImage', '')
 
 
  
@@ -249,7 +249,7 @@
  
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-           <h1>Conserto de Fonte de Notebook.  
+           <h1>Conserto de Fonte de Notebook
                 </h1>
           <p class="lead" style="text-align:left">Realizamos conserto em fontes de notebooks. Geralmente apenas o cabo do carregador é danificado, e nesse caso sempre tem conserto.</p>
         </div>

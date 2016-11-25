@@ -25,30 +25,32 @@
 
 
 
-
+<br><br>
 <div class="container">
     <div class="row row-centered">
         
-           <h3>Oferecemos serviços especializados Lorem ipsum dolor sit amet, consectetur 
-                    adipisicing elit. Necessitatibus officiis ullam mollitia magnam vero blanditiis 
-                    amet illum fuga, vitae nisi, sint similique dolore cum pariatur quaerat voluptas nam distinctio minus?
-                </h3>
+           <h1>Oferecemos serviços especializados e soluções em Informática, Impressão e Web.
+                </h1>
 
 
 
 
-        <div class="col-xs-6 col-centered col-fixed att">
-            <div class="item">
-                <div class="content">
-                    <img src={{asset("img/product-2f9916b48d1cbb4e61f3c44355df8a48.png")}} alt="" class="img-rounded img-responsive col-centered">
+              <div class="col-xs-6 col-centered col-fixed att">
+                    <div class="item">
+                        <div class="content">
                   
-                    <h3>Conserto de Fonte de Notebook</h3>
-                    <p>Seu carregador do notebook parou de funcionar? Ele ainda pode ter conserto.</p>
-                    <a href="/services/conserto-de-fonte-de-notebook"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
-                 
+                            <img src={{asset("img/windows-icon.png")}} alt="" class="img-rounded img-responsive col-centered">
+                            <h3>Manutenção de Computadores e Notebooks</h3>
+                            <p>Realizamos manutenção, configuração e instalação de computadores e notebooks.</p>
+                            <a href="/services/manutencao-de-computadores-e-notebooks"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
+                                
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
+                   
+
+
+   
 
 
 
@@ -98,6 +100,34 @@
             </div>
         </div>
            
+           
+        <div class="col-xs-6 col-centered col-fixed att">
+                <div class="item">
+                    <div class="content">
+              
+                        <img src={{asset("img/cartucho.png")}} alt="" class="img-rounded img-responsive col-centered">
+                        <h3>Recarga de Cartucho </h3>
+                        <p> Fazemos recarga em cartuchos de impressoras jato e tinta e lazer.</p>
+                        <a href="/services/recarga-de-cartucho"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
+                            
+                    </div>
+                </div>
+            </div>
+               
+        <div class="col-xs-6 col-centered col-fixed att">
+            <div class="item">
+                <div class="content">
+                    <img src={{asset("img/product-2f9916b48d1cbb4e61f3c44355df8a48.png")}} alt="" class="img-rounded img-responsive col-centered">
+                  
+                    <h3>Conserto de Fonte de Notebook</h3>
+                    <p>Seu carregador do notebook parou de funcionar? Ele ainda pode ter conserto.</p>
+                    <a href="/services/conserto-de-fonte-de-notebook"><button type="button" class="btn btn-danger btn-lg">Ver Detalhes</button></a>
+                 
+                </div>
+            </div>
+        </div>
+                   
+
 
     </div>
 </div>

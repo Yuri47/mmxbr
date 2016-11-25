@@ -11,7 +11,7 @@
                      
                     Quadra Central 01 Conjunto D Lote 04 Loja 03<br>
                     Santa Maria, Distrito Federal<br>
-                    Telefone: (61) 3029-2859<br>
+                    Telefone: (61) <strong> 3029-2859</strong><br>
                     Funcionamento: segunda a sexta de 09:00 as 18:00, sábado de 09:00 as 14:00<br>
                     CNPJ: 11.113.091/0001-98 <br>
 
@@ -66,7 +66,7 @@
     </div>
     <div id="c" class="ftr">
         <div class="container">
-            <p>Desenvolvido por: Macromix</p>
+            <p>Desenvolvido por: Yuri Alexsander - Macromix {{date('Y')}}</p>
         
          
         </div>
