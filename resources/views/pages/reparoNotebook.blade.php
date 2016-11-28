@@ -5,7 +5,7 @@
 @section('ogUrl', 'services/reparos-em-notebooks')
 @section('ogTitle', 'Reparos Gerais em Notebooks ')
 @section('ogDescription', 'Reparos Gerais em Notebooks ')
-@section('ogImage', 'reparoNotebook.png')
+@section('ogImage', 'ogimagereparonotebook.png')
 
 
  
@@ -252,8 +252,10 @@
            <h1>Reparos Gerais em Notebooks  
                 </h1>
           <p class="lead" style="text-align:left"> Com o tempo as dobradiças vão ficando mais apertadas fazendo com que quebrem as tampas, as bases, as dobradiças e até mesmo a tela do notebook. Também trocamos telas quebradas e entrada da fonte com defeito. Tudo isso tem solução.
-
-          </p>
+          <h2> Clique aqui e confira todos os nossos serviços.
+          </h2>
+           <a href="/services"><button type="button" class="btn btn-danger btn-lg">SERVIÇOS</button></a>
+                             
         </div>
         <div class="col-md-5 col-md-pull-7 ">
           <img class="featurette-image img-responsive img-responsive-page center-block" src={{asset("img/serviceImages/product-5df915682b4fff693b50b27542578094.png.jpeg")}} alt="Generic placeholder image">
