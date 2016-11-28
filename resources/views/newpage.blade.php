@@ -4,8 +4,8 @@
 
 @section('ogUrl', '')
 @section('ogTitle', 'Macromix Informática Serviços Especializados')
-@section('ogDescription', 'this is description from blade bitch')
-@section('ogImage', 'app-bg.png')
+@section('ogDescription', 'Macromix Informática Serviços Especializados')
+@section('ogImage', 'ogimagehome.png')
 
 
 @section('content')

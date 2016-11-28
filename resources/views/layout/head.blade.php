@@ -29,6 +29,9 @@
   <meta property="og:title"              content="@yield('ogTitle')" />
   <meta property="og:description"        content="@yield('ogDescription')" />
   <meta property="og:image"              content="http://{{config('config.url')}}/img/@yield('ogImage')" />
+  <meta property="og:image:width"        content="1200" />
+  <meta property="og:image:height"       content="630" />
+
 
 
 
