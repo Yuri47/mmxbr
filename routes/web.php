@@ -57,3 +57,12 @@ Route::get('/services/recarga-de-cartucho', function () {
     return view('pages.recarga');
 });
 
+
+Auth::routes();
+
+Route::get('/admin', 'HomeController@index');
+
+Route::get('/admin/newpost', 'TipsController@newpost');
+
+
+ 

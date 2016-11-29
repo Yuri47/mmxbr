@@ -113,7 +113,13 @@
         <div class="container">
             <div class="row centered">
 
-                
+                   @if (Auth::guest())
+                             <h1>convidado</h1>
+                        @else
+                             
+                                    {{ Auth::user()->name }}  
+                                    <h1>logado</h1>
+                        @endif
 
                 
               <h1 class="h1dicas">Dicas Macromix </h1>
