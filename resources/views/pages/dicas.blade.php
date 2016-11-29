@@ -22,17 +22,21 @@
 .row-centered {
     text-align:center;
 }
+.h1dicas {
+    padding-bottom: 30px;
+}
 .col-centered {
     display:inline-block;
     float:none;
     /* reset the text-align */
-    text-align:left;
+    text-align:center;
     /* inline-block space fix */
     margin-right:-4px;
+    padding-bottom: 20px;
 }
 .col-fixed {
     /* custom width */
-    width:320px;
+    width:33.333333333%;
     max-height: 500px;
 }
 .col-min {
@@ -46,38 +50,8 @@
 
 /* visual styles */
  
-.colblog {
-    padding-top:10px;
-    padding-bottom:15px;
-    border:1px solid #80aa00;
-    background:#d6ec94;
-}
-.colblog:before {
-    display:block;position:relative;
-    
-    margin-bottom:8px;
-    font-family:sans-serif;
-    font-size:10px;
-    letter-spacing:1px;
-    color:#658600;
-    text-align:left;
-}
-.item {
-    width:100%;
-    height:100%;
-    border:1px solid #cecece;
-    padding:16px 8px;
-    background:#ededed;
-    background:-webkit-gradient(linear, left top, left bottom,color-stop(0%, #f4f4f4), color-stop(100%, #ededed));
-    background:-moz-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
-    background:-ms-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
-}
-
-/* content styles */
-.item {
-    display:table;
-
-}
+ 
+ 
 .content {
     display:table-cell;
     vertical-align:middle;
@@ -96,25 +70,35 @@
 /* centering styles for jsbin */
 
  
-.module {
-  width: 250px;
-  margin: 0 0 1em 0;
-  overflow: hidden;
-}
-.module p {
-  margin: 0;
-}
+ 
  
 
-.last-line {
-  height: 3.9em; /* exactly three lines */
-  text-overflow: -o-ellipsis-lastline;
-}
  
- .imgblog {
-    max-width: 100%;
-    max-height: 100%;
- }
+ 
+
+.borda {
+ 
+    border: 1px #E6E6E6 solid;
+    
+}
+.borda > h2 {
+    min-height: 80px;
+}
+
+
+
+  @media screen and (max-width:768px) {
+
+.col-fixed {
+    /* custom width */
+    width:100%;
+    max-height: 500px;
+}
+
+
+
+
+  } /* media 768  */
  
 </style>
 
@@ -132,37 +116,228 @@
                 
 
                 
-              <h1>With fixed width</h1>
+              <h1 class="h1dicas">Dicas Macromix </h1>
   
 <div class="container">
     <div class="row row-centered">
 
-        <div class="col-xs-6 col-centered col-fixed colblog">
+        <div class="col-xs-6 col-centered col-fixed ">
             
-            <div class="item">
-                <div class="content">
-                    <h2>Dicas sobre Notebooks</h2>
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks E outras coisas</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
                 </div>
-            </div>
-            <div class="item">
-                <div class="content">
-                   <img src={{asset("img/ogimagesite2.jpg")}} alt="" class="imgblog">
-                </div>
-            </div>
-            <div class="item">
-                <div class="content  ">
-             <div class="module last-line">
-  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-</div>...
-                </div>
-            </div>
-            
         </div>
 
-        <div class="col-xs-6 col-centered col-fixed colblog"><div class="item"><div class="content">12313</div></div></div>
-        <div class="col-xs-6 col-centered col-fixed colblog"><div class="item"><div class="content">12313</div></div></div>
-        <div class="col-xs-6 col-centered col-fixed colblog"><div class="item"><div class="content">12313</div></div></div>
-        <div class="col-xs-6 col-centered col-fixed colblog"><div class="item"><div class="content">12313</div></div></div>
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+           <div class="col-xs-6 col-centered col-fixed ">
+            
+          <a href="#">
+                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                </a>
+                <div class="borda">
+                <h2 class="h2-blog">
+                    <a href="#">Dicas sobre Notebooks</a>
+                </h2>
+                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </div>
+        </div>
+
+        
+ 
+ 
+
+     
+
+         
     </div>
 </div>
 

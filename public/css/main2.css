@@ -61,7 +61,7 @@ p {
 
 /* Links */
 a {
-    color: #3bc492;
+    color: #45a2f0;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -384,9 +384,19 @@ http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-cente
     border-color: #222;
 }
 
+.img-responsive-dicas {
+    height: auto;
+    max-width: 100%;
+}
 
-
-
+.testewrap {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+}
 
 
 
@@ -572,7 +582,10 @@ list-style-type:none;
 }
 
 
-
+.img-responsive-dicas {
+    height: auto;
+    max-width: 100%;
+}
 
 
 
