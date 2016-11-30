@@ -120,26 +120,52 @@
                                     {{ Auth::user()->name }}  
                                     <h1>logado</h1>
                         @endif
+                        {{$teste}}
 
-                
+                        {{$posts}}
+
+ 
+
+                        @foreach ($posts as $p)
+                            {{$p->content}}
+                        @endforeach
+
               <h1 class="h1dicas">Dicas Macromix </h1>
   
 <div class="container">
     <div class="row row-centered">
 
+
+
+
+
+
+
+
+
+
+
+    @foreach ($posts as $p)
+
         <div class="col-xs-6 col-centered col-fixed ">
             
           <a href="#">
-                    <img class="img-responsive-dicas" src={{asset("img/ogimagesite2.jpg")}} alt="">
+                    <img class="img-responsive-dicas" src={{asset("img/postImages/$p->image")}} alt="">
                 </a>
                 <div class="borda">
                 <h2 class="h2-blog">
-                    <a href="#">Dicas sobre Notebooks E outras coisas</a>
+                    <a href="#">{{$p->title}}</a>
                 </h2>
-                <p class="testewrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p class="testewrap">{{$p->description}}</p>
+                <a href="/dicas/{{$p->url}}">
                 <button type="button" class="btn btn-danger btn-lg" style="text-align:center; margin-bottom: 20px;">Leia Mais</button>
+                </a>
                 </div>
         </div>
+
+
+    @endforeach
+
 
            <div class="col-xs-6 col-centered col-fixed ">
             

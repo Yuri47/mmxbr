@@ -36,9 +36,8 @@ Route::get('/services/conserto-de-fonte-de-notebook', function () {
 Route::get('/criarsites', function () {
     return view('pages.site');
 });
-Route::get('/dicas', function () {
-    return view('pages.dicas');
-});
+Route::get('/dicas', 'TipsController@showAllTips');
+
 Route::get('/services/reparo-na-entrada-do-carregador-do-notebook', function () {
     return view('pages.reparoEntradaCarr');
 });
@@ -63,6 +62,7 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index');
 
 Route::get('/admin/newpost', 'TipsController@newpost');
+Route::get('/dicas', 'TipsController@showAllTips');
 
 
  
