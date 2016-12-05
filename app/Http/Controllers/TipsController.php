@@ -33,8 +33,37 @@ class TipsController extends Controller
         return view ('pages.dicas', ['posts' => $posts, 'teste' => 'teste']);
     }
 
+    public function createPost(Request $request) {
+
+      // $extension = $request->file('photo')->extension();
+
+       $file = $request->file('photo')->store('/img/postImages');
+
+        $title = $request->input('title');
+        $description = $request->input('description');
+        $content = $request->input('content');
+        $url = str_slug($title, '-');
+
+        $postagem = [
+            'title' => $title,
+            'description' => $description,
+            'content' => $content,
+            'url' => $url,
+            'image' => $file
+        ];
+
+        Post::create($postagem);
+         
+
+        return $postagem;
+
+
+    }
+
 
 
 
 
 }
+
+

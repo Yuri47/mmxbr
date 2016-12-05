@@ -62,6 +62,8 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index');
 
 Route::get('/admin/newpost', 'TipsController@newpost');
+Route::post('/admin/createpost', 'TipsController@createPost');
+
 Route::get('/dicas', 'TipsController@showAllTips');
 
 
